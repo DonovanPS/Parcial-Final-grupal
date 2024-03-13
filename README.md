@@ -71,3 +71,10 @@ Esta API proporciona operaciones para la gestión de productos, incluyendo la re
   - `price`: Precio del producto (number)
   - `stock`: Stock disponible del producto (number)
   - `category`: Categoría del producto (string - ID de la categoría)
+
+
+## Consumo desde Apollo 
+
+- **Get**:
+
+[![Whats-App-Image-2024-03-12-at-7-43-19-PM.jpg](https://i.postimg.cc/cLv3gzyk/Whats-App-Image-2024-03-12-at-7-43-19-PM.jpg)](https://postimg.cc/cvNCPXJf)
