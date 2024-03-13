@@ -78,3 +78,7 @@ Esta API proporciona operaciones para la gestión de productos, incluyendo la re
 - **Get**:
 
 [![Whats-App-Image-2024-03-12-at-7-43-19-PM.jpg](https://i.postimg.cc/cLv3gzyk/Whats-App-Image-2024-03-12-at-7-43-19-PM.jpg)](https://postimg.cc/cvNCPXJf)
+
+
+- **Post**:
+[![Creacion-categoria.jpg](https://i.postimg.cc/zBGHN2jk/Creacion-categoria.jpg)](https://postimg.cc/zL4GSj4L)
