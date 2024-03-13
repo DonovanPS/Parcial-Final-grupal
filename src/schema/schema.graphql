@@ -4,9 +4,9 @@ type Product {
   description: String!
   price: Float!
   stock: Int!
-  category: String
-  state: Boolean!
   image: String
+  category: String
+    state: Boolean! 
 }
 
 type Query {
