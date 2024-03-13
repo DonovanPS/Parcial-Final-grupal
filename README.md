@@ -79,6 +79,20 @@ Esta API proporciona operaciones para la gestión de productos, incluyendo la re
 
 Se recomienda ignorar el state y la category ya que apollo tiene probleca con el render del objeto de category y con el booleano de state
 
+Ejemplo:
+```javascript
+query {
+  getAllProducts {
+    id
+    name
+    description
+    price
+    stock
+    image
+  }
+}
+```
+
 [![Whats-App-Image-2024-03-12-at-7-43-19-PM.jpg](https://i.postimg.cc/cLv3gzyk/Whats-App-Image-2024-03-12-at-7-43-19-PM.jpg)](https://postimg.cc/cvNCPXJf)
 
 
