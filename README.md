@@ -77,8 +77,38 @@ Esta API proporciona operaciones para la gestión de productos, incluyendo la re
 
 - **Get**:
 
+Se recomienda ignorar el state y la category ya que apollo tiene probleca con el render del objeto de category y con el booleano de state
+
 [![Whats-App-Image-2024-03-12-at-7-43-19-PM.jpg](https://i.postimg.cc/cLv3gzyk/Whats-App-Image-2024-03-12-at-7-43-19-PM.jpg)](https://postimg.cc/cvNCPXJf)
 
 
 - **Post**:
+
+Se recomienda poner en null la category al momento de crear un nuevo producto
+
+ejemplo
+```javascript
+function saludar() {
+mutation {
+  addProduct(input: {
+    name: "Nuevo Producto",
+    description: "Descripción del nuevo producto",
+    price: 50.99,
+    stock: 20,
+    category: null,
+    state: true,
+    image: "https://example.com/image.jpg"
+  }) {
+    name
+    description
+    price
+    stock
+    category
+    state
+    image
+  }
+}
+```
+
+
 [![Creacion-categoria.jpg](https://i.postimg.cc/zBGHN2jk/Creacion-categoria.jpg)](https://postimg.cc/zL4GSj4L)
