@@ -1,12 +1,17 @@
-# schema/schema.graphql
-
 type Product {
   id: ID!
   name: String!
   description: String!
   price: Float!
   stock: Int!
-  category: String!
+  category: String
+  state: Boolean!
+  image: String
+}
+
+type Query {
+  getAllProducts: [Product!]!
+  getProductById(id: ID!): Product!
 }
 
 input ProductInput {
@@ -14,16 +19,13 @@ input ProductInput {
   description: String!
   price: Float!
   stock: Int!
-  category: String!
-}
-
-type Query {
-  getAllProducts: [Product!]!
-  getProductById(id: ID!): Product
+  category: String
+  state: Boolean!
+  image: String
 }
 
 type Mutation {
   addProduct(input: ProductInput!): Product!
   updateProduct(id: ID!, input: ProductInput!): Product!
-  deleteProduct(id: ID!): Boolean
+  deleteProduct(id: ID!): Boolean!
 }
