@@ -126,3 +126,48 @@ mutation {
 
 
 [![Creacion-categoria.jpg](https://i.postimg.cc/zBGHN2jk/Creacion-categoria.jpg)](https://postimg.cc/zL4GSj4L)
+
+
+- **Update**:
+
+Ejemplo
+
+```javascript
+mutation {
+  updateProduct(
+    id: "65f0f897919a9c03766c9158",
+    input: {
+      name: "Nuevo nombre del producto",
+      description: "Nueva descripción del producto",
+      price: 99.99,
+      stock: 30,
+      category: null,
+      state: true,
+      image: "https://example.com/nueva_imagen.jpg"
+    }
+  ) {
+    name
+    description
+    price
+    stock
+    category
+    state
+    image
+  }
+}
+```
+
+[![Actualizar.jpg](https://i.postimg.cc/L6cysLGP/Actualizar.jpg)](https://postimg.cc/xcPGxJfj)
+
+
+
+
+- **Delete**:
+
+```javascript
+mutation {
+  deleteProduct(id: "65f0f897919a9c03766c9158")
+}
+```
+
+[![Eliminar.jpg](https://i.postimg.cc/qRqcwv90/Eliminar.jpg)](https://postimg.cc/1nxN5smY)
