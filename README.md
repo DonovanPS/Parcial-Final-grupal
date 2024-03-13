@@ -1,5 +1,6 @@
 # API REST de Gestión de Productos
-
+## Para ejecutar: node src/server.js
+## Puerto: 4000
 ## Descripción
 Esta API proporciona operaciones para la gestión de productos, incluyendo la recuperación, creación, actualización y eliminación de productos en un sistema.
 
