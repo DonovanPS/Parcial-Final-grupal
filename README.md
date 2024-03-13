@@ -171,3 +171,22 @@ mutation {
 ```
 
 [![Eliminar.jpg](https://i.postimg.cc/qRqcwv90/Eliminar.jpg)](https://postimg.cc/1nxN5smY)
+
+
+
+- **Get By ID**:
+
+```javascript
+query {
+  getProductById(id: "658095832e39a5fbf3b42c47") {
+    id
+    name
+    description
+    price
+    stock
+    image
+  }
+}
+```
+
+[![GetByID.jpg](https://i.postimg.cc/5Nd748hC/GetByID.jpg)](https://postimg.cc/hhsbMQPD)
